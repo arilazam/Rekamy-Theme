@@ -2,14 +2,14 @@
 
 module.exports = {
 	theme: {
-		slug: 'wprig',
-		name: 'WP Rig',
-		author: 'Morten Rand-Hendriksen'
+		slug: 'rekamy',
+		name: 'Rekamy',
+		author: 'Rekamy Agency'
 	},
 	dev: {
 		browserSync: {
 			live: true,
-			proxyURL: 'wprig.test:8888',
+			proxyURL: 'rekamy.local',
 			bypassPort: '8181'
 		},
 		browserslist: [ // See https://github.com/browserslist/browserslist
